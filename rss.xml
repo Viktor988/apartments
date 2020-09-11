@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+<title>O apartmanima</title>
+<link>http://sajtovistudenata.ict.edu.rs/36_17/index.html</link>
+<description>
+Osnovne informacije o apartmanima</description>
+<item>
+<title>Galerija</title>
+<link>http://sajtovistudenata.ict.edu.rs/36_17/galerija.html</link>
+<description>
+Pogledajte sve slike o apartmanima</description>
+</item>
+<item>
+<title>Cenovnik</title>
+<link>http://sajtovistudenata.ict.edu.rs/36_17/cenovnik.html</link>
+<description>
+Pratite sve nase popuste</description>
+</item>
+
+<item>
+<title>Kontakt</title>
+<link>http://sajtovistudenata.ict.edu.rs/36_17/kontakt.html</link>
+<description>
+Ovde mozete videti gde se nalazimo i kontakt telefone</description>
+</item>
+
+<item>
+<title>O autoru</title>
+<link>http://sajtovistudenata.ict.edu.rs/36_17/O%20autoru.html</link>
+<description>
+Pogledajte osnovne informacije o autoru sajta</description>
+</item>
+</channel>
+</rss>
+

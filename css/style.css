@@ -1,0 +1,460 @@
+*{margin:0px; padding:0px;}
+
+
+#okvir{
+	width:100%;
+
+background-color:#F2F5FC;
+	}
+
+#heder{
+	width:100%;
+	height:65px;
+background-color:#1947D1;
+position:fixed;
+z-index:1;
+}
+
+#navigacija{
+	width:50%;
+	height:70px;
+float:left;
+
+}
+
+#logo{
+	width:130px;
+	height:70px;
+float:left;}
+#logo img{
+	width:200px;
+	height:134px;
+margin-top:-32px;
+	
+	}
+#forma1{
+	width:250px;
+	height:50px;
+margin-left:-10px;
+float:right;
+}
+
+.cleaner{clear:both;}
+#sadrzaj{
+	width:100%;	
+	 
+	background-color:#F2F5FC;
+}
+#futer{
+	width:100%;
+	height:235px;
+	background-color:#335CD6;
+margin-top:100px;
+display:flex;
+justify-content:space-around;	
+	}
+	
+#navigacija{
+
+margin-left:15%;
+}
+#navigacija ul{
+margin-left:2px;
+line-height: center;
+list-style-type:none;
+}
+
+#navigacija ul li{
+float:left;
+display:block;
+margin-left:0px;
+margin-top:5px;
+padding:15px 15px;
+border-left:0.5px solid black;
+transition:0.5s;
+}
+#navigacija ul li:hover{background-color:#1975FF;}
+
+#navigacija ul li a{
+text-decoration:none;
+color:white;
+font-size:17px;
+font-family:Helvetica;
+box-sizing: inherit;
+
+}
+#navigacija ul li a.dodatni{
+text-decoration:underline;}
+#navigacija ul li.treci{border-right:1px solid black;}
+
+
+#forma1 form{
+float:right;
+margin-top:3px;
+margin-right:4px;
+text-align:right;
+height:20px
+}
+
+#trazi{width:190px;
+float:right;
+margin-top:3px;
+height:100px;
+margin-right:3px;
+position:relative;
+}
+#trazi input{ 
+   float:right;
+	
+	width: 130px;
+    padding:8px;
+	
+	-webkit-transition: width 0.4s ease-in-out;
+transition: width 0.4s ease-in-out;}
+ #trazi input:focus{ 
+    width:170px;
+}
+#trazi a{text-decoration:none;
+color:black;
+font-family:Helvetica;
+left:110px;
+top:34px;
+position:absolute;padding:10px;}
+#trazi a:hover{color:blue;}
+
+#trazi img{width:30px;height:30px;margin-left:-50px;background-color:none;margin-top:-5px}
+#slika{
+height:500px;
+width:100%;
+}
+#slika img{
+height:500px;
+width:100%;
+}
+
+#tekst{
+width:1000px;
+margin-left:13%;
+font-family:Helvetica;
+}
+
+#tekst h1{
+	width:300px;
+	margin-left:350px;
+	margin-top:20px;
+	border-bottom:1px solid black;
+border-width:2px;
+	text-align:center;
+	font-family:Helvetica;
+	}
+#tekst p{
+text-align:center;
+font-size:20px;
+font-family:Helvetica;
+margin-top:20px;
+margin-bottom:40px;
+text-align:center;
+}	
+#navigacija ul li.treci{border-right:1px solid black;}
+#ikone{
+width:200px;
+height:200px;
+text-decoration:none;
+float:left;
+}
+#ikone p{margin-top:-100px;}
+#ikone ul{
+	font-size:20px;
+	}
+#ikone ul li{
+font-size:17px;
+display:block;
+}
+#lok  i{
+font-size:30px;
+margin-top:25px;
+}
+#lok i:hover{color:grey;
+transition:0.5s}
+#lok  p{
+font-size:14px;
+
+margin-top:-15px;
+margin-left:35px;
+border-bottom:1px solid black;
+}
+#fon  i{
+font-size:30px;
+margin-top:10px;
+margin-left:3px;
+}
+#fon i:hover{color:grey;
+transition:0.5s}
+
+#fon  p{
+font-size:14px;
+margin-left:35px;
+margin-top:-20px;
+border-bottom:1px solid black;
+}	
+#fiksni  i{
+font-size:22px;
+margin-top:13px;
+margin-left:2px;
+}
+#fiksni i:hover{color:grey;
+transition:0.5s}
+#fiksni  p{
+font-size:15.1px;
+margin-left:35px;
+margin-top:-20px;
+border-bottom:1px solid black;
+}	
+
+#posta i{
+font-size:25px 10px;
+margin-top:12px;
+}
+#posta i:hover{color:grey;
+transition:0.5s}
+#posta p{
+font-size:14px;
+margin-left:35px;
+margin-top:-16px;
+border-bottom:1px solid black;
+}
+#drmeni{
+float:left;
+margin-top:3px;
+}
+#drmeni  li{margin-bottom:5px;display:block;margin-top:15px;
+}
+#drmeni  li a{margin:5px;
+text-decoration:none;
+color:black;
+}
+#drmeni  li a:hover{color:white;}
+#drmeni p{margin-left:-50px;color:white;}
+
+#socm{
+	width:50px;
+	height:190px;
+float:left;
+
+}
+	#socm ul li{margin:5px;
+	display:block;}
+	#socm ul li a {color:black;
+	}
+	#socm ul li a:hover {color:grey;
+	transition:0.5s;
+	}
+	
+	#socm ul li a i{
+	margin-top:10px;
+	font-size:30px;	
+	}
+	#autor{width:250px;height:6px;margin-top:210px;margin-left:-450px;}
+	#autor p{color:white;}
+	
+	
+	.cleaner{clear:both;}
+	/*Rezervacijeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee*/
+	#forma{
+		margin-left:500px;
+		width:310px;
+		
+	}
+	#forma h1{
+	width:180px;
+		margin-top:10px;
+		font-family:Helvetica;
+		color:black;
+		border-bottom:1px solid black;
+border-width:2px;
+	margin-left:100px;
+	}
+	#forma h2{width:800px;margin-left:-160px;margin-top:20px;}
+	#forma p{font-size:20px;
+	color:#0D0D0D;
+	margin-top:15px;
+	font-family:Helvetica;
+	}
+	#forma input{width:300px;
+	padding:12px 20px;
+	margin-top:3px;
+	}
+	#forma input:focus{border:2px solid  #ADADAD}
+	
+	#forma select{width:100px;
+	padding:5px;
+	margin-top:10px;}
+		
+	#buton{width:300px;
+	
+	margin-top:15px;
+	}
+	
+	#buton input{width:100px;
+		padding:10px;}
+	
+	#buton input:focus{border:grey;
+	}
+	#placanje input {width:50px;
+	margin-top:15px;
+	margin-bottom:5px;
+	}	
+	/*O AUTORUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU*/
+	#slautora{
+		width:300px;
+		height:260px;
+	font-family:Helvetica;
+	margin-top:10px;
+	margin-left:10px;
+	float:left;
+	}
+	
+	#slautora img{
+		width:300px;
+	height:250px;float:left;}
+	#tautora{width:1100px;}
+	
+	#tautora h1{width:150px;
+		border-bottom:1px solid black;
+border-width:2px;
+	float:left;
+	text-align:center;
+	margin-top:-70px;
+	font-family:Helvetica;
+	margin-left:300px;
+	}
+	
+	#tautora p{
+	text-align:justify;
+	margin-top:70px;
+	font-size:20px;
+	margin-left:330px;
+	}
+	.cleaner{clear:both;}
+	
+	/*kontaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaakt*/
+	
+	#dsredina{width:1000px;
+	height:550px;
+	margin-top:-65px;
+	margin-left:110px;
+	}
+	#knasl{width:150px;
+	height:90px;}
+	#knasl h1{width:120px;margin-left:600px;border-bottom:1px solid black;
+border-width:2px;margin-top:10px;font-family:Helvetica;}
+	#knasl p{font-family:Helvetica;}
+	#kontforma{width:400px;
+	float:left;
+	margin-left:50px;
+	font-family:Helvetica;
+	margin-top:-2px;
+	}
+	#kontforma input{
+		font-size:17px;
+	padding:10px 18px;
+	margin-top:-10px;
+	}
+	#kontforma input:focus{border:2px solid  #ADADAD;}
+	
+	#kontforma p{font-size:19px;
+	margin-top:10px;
+	margin-bottom:-5px;}
+	
+	#kontforma h3{
+		margin-top:10px;
+	margin-top:10px;
+	font-family:Helvetica;
+	}
+	#kontforma textarea{margin-top:-10px;font-size:20px;}
+
+	#kontforma textarea:focus{border:2px solid  #ADADAD;}
+	
+	#dugg{width:100px;
+	margin-top:25px;
+	}
+	#dugg input{width:100px;}
+	#dugg input:focus{border-color:grey;}
+	
+	#kontel{font-family:Helvetica;
+		width:400px;
+	margin-left:650px;
+	margin-top:80px;
+	}
+#kontel h3{margin-top:100px;font-family:Helvetica;}
+#kontel p{font-size:19px;font-family:Helvetica;
+margin-bottom:10px;}	
+
+#mejp{width:400px;
+height:300px;
+left:200px;
+top:10px;
+}
+/*GALERIJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA*/	
+#spojeno{width:800px;height:650px;margin-left:270px;}
+#spojeno h1{margin-top:10px;margin-left:280px;:center;width:200px;border-bottom:1px solid black;font-family:Helvetica;
+border-width:2px;}
+.skupslika{margin:40px auto;
+width:800px;
+height:400px;
+	}
+.cleaner{clear:both;}
+.galslika{
+	width:250px;
+
+float:left;
+margin-right:5px;
+
+}
+
+.ddopuna{
+	margin-left:10px;
+margin-right:15px;}
+.tc{margin-top:-150px;}
+.cleaner{clear:both;}
+
+.pdopuna img{width:100%;
+height:200px;}
+.ddopuna img{width:100%;
+height:200px;}
+.tdopuna img{width:100%;
+height:200px;}
+.cleaner{clear:both;}
+
+/*Cenoviiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiik*/
+#cenovnik{width:670px;float:left;
+height:500px;}
+#cenovnik h1{width:150px;
+margin-top:10px;margin-left:570px;
+font-family:Helvetica;
+border-bottom:1px solid black;
+border-width:2px;}
+#tabelac{width:550px;
+height:350px;margin-top:50px;margin-left:120px;}
+#tabelac tr td{padding:9px 10px;}
+tr:nth-child(even){background-color:  #5C7AFF}
+#tabelac table{border:none;text-align:center;}
+#tabelac tr th{padding:6px 7px; background-color:#3647FF;}
+#tabelac table{ border-collapse: collapse;
+ border: 1px solid black;
+}
+#ctekst{width:520px;
+height:380px;
+float:right;
+margin-top:-410px;
+margin-right:-30px;
+}
+#ctekst p{text-align:justify;
+font-family:Helvetica;
+margin-top:5px;}
+#ctekst h4{font-family:Helvetica;
+margin-top:5px;
+}
+#csredina{width:1150px;
+height:500px;}	
+		
